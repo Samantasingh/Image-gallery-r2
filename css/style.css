@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+}
+  body {
+    background-color: rgb(78, 85, 211);
+    margin: 0;
+    display: flex;
+}
+
+  .wrap h1 {
+    text-align: center;
+    color: rgb(143, 183, 220);
+    font-size: 55px;
+    font-family: monospace;
+    
+  }
+  .img-area {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center
+  }
+
+  img {
+    padding: 15px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 50rem;
+    border-style: groove;
+    border-color: rgb(247, 6, 211);
+  }
+
+  img:hover {
+    opacity: .6;
+    transition: .3s;
+  }
